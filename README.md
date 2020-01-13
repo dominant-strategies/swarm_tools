@@ -25,3 +25,8 @@ make run
 You can then access Portainer by using the IP address of any node in your Swarm cluster over port 9000 with a web browser.
 
 [Visit Portainer Locally](http://localhost:9000)
+
+When you want to take down your stack run
+```
+make stop
+```
