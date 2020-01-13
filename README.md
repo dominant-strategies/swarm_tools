@@ -1,4 +1,4 @@
-# Portainer compose setup
+# Spruce Swarm Tools compose setup
 
 A simple setup to deploy Portainer using `docker-compose` or `docker stack deploy` (Swarm).
 
@@ -19,7 +19,9 @@ See `nginx-proxy/` or `traefik/` for Compose deployments.
 Deploy this stack on a manager node inside your Swarm cluster:
 
 ```
-docker stack deploy --compose-file=docker-stack.yml portainer
+make run
 ```
 
 You can then access Portainer by using the IP address of any node in your Swarm cluster over port 9000 with a web browser.
+
+[Visit Portainer Locally](http://localhost:9000)
